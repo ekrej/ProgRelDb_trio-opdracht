@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/auth/x64/sqljdbc_auth.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/auth/x86/sqljdbc_auth.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/install.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/mssql-jdbc-6.2.2.jre7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/mssql-jdbc-6.2.2.jre8.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/release.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/adaptive/executeStoredProcedure.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/adaptive/readLargeData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/adaptive/updateLargeData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/alwaysencrypted/AlwaysEncrypted.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/connections/connectDS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/connections/connectURL.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/datatypes/basicDT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/datatypes/sqlxmlExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/resultsets/cacheRS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/resultsets/retrieveRS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/resultsets/updateRS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/samples/sparse/SparseColumns.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/xa/x64/sqljdbc_xa.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/xa/x86/sqljdbc_xa.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Drivers/sqljdbc_6.2/enu/xa/xa_install.sql" />
-      <change beforePath="$PROJECT_DIR$/../gitrepo_tutorial" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_6_2_2_jre8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_6_2_2_jre8.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Netflix_Statistix.iml" afterPath="$PROJECT_DIR$/Netflix_Statistix.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Main.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/placeholder.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/scr/Main.java" afterPath="$PROJECT_DIR$/scr/Main.java" />
-    </list>
+    <list default="true" id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scr/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="-443">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -263,7 +231,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -273,7 +240,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -435,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scr/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="-443">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
