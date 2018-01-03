@@ -6,24 +6,22 @@ import java.sql.Statement;
 public class Main {
 
     public static void main(String[] args) {
-        // Dit zijn de instellingen voor de verbinding. Vervang de databaseName indien deze voor jou anders is.
-        String connectionUrl = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=NetflixStatistix;integratedSecurity=true;";
 
-        // Connection beheert informatie over de connectie met de database.
-        Connection con = null;
 
-        // Statement zorgt dat we een SQL query kunnen uitvoeren.
-        Statement stmt = null;
+                // Create a variable for the connection string.
+                String connectionUrl = "jdbc:sqlserver://localhost:1434;" +
+                        "databaseName=NetflixStatistix;user=admin;password=admin";
 
-        // ResultSet is de tabel die we van de database terugkrijgen.
-        // We kunnen door de rows heen stappen en iedere kolom lezen.
-        ResultSet rs = null;
+                // Declare the JDBC objects.
+                Connection con = null;
+                Statement stmt = null;
+                ResultSet rs = null;
 
         try {
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl);
+            con = DriverManager.getConnection(connectionUrl,"admin","admin");
 
             // Stel een SQL query samen.
             String SQL = "SELECT * FROM Film";
