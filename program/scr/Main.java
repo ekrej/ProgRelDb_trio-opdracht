@@ -9,7 +9,7 @@ public class Main {
 
 
                 // Create a variable for the connection string.
-                String connectionUrl = "jdbc:sqlserver://localhost:1434;" +
+                String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
                         "databaseName=NetflixStatistix;user=admin;password=admin";
 
                 // Declare the JDBC objects.
