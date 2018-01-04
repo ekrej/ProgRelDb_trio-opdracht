@@ -1,9 +1,7 @@
 import Interface.UserInterface;
 
 import javax.swing.*;
-import java.awt.*;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -22,7 +20,8 @@ public class Main {
                 ResultSet rs = null;
 
                 //start de ui
-                UserInterface ui = new UserInterface();
+                 UserInterface ui = new UserInterface();
+                SwingUtilities.invokeLater(new UserInterface());
 
 
 //        try {

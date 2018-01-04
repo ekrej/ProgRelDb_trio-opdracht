@@ -4,37 +4,41 @@ package Interface;
 import java.awt.*;
 import javax.swing.*;
 
-public class UserInterface extends JFrame {
+public class UserInterface implements Runnable{
 
-
+        private JFrame Frame;
         private JPanel Main;
         private JPanel Buttons;
-        JSplitPane SplitPane;
+        private JSplitPane SplitPane;
         private Color color1 = new Color(38, 38, 38);
         private Color color2 = new Color(77,77,77);
 
-        public UserInterface() {
-            this.setSize(1024,600);
-            this.setVisible(true);
-            this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
 
-            // initializing panels
-            this.Main = new JPanel();
-            this.Buttons = new JPanel();
-            this.SplitPane= new JSplitPane();
+    @Override
+    public void run() {
 
-            //settin size of pannels
-            this.Main.setSize(850, 600);
-            this.Buttons.setSize(174, 600);
+           // initializing panels
+           this.Frame = new JFrame();
+           this.Main = new JPanel();
+           this.Buttons = new JPanel();
+           this.SplitPane= new JSplitPane();
 
-            //setting color of panels
-            this.Main.setBackground(color1);
-            this.Buttons.setBackground(color2);
+           this.Frame.setSize(1024,600);
+           this.Frame.setVisible(true);
+           this.Frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-            //setting to visible
-            this.Main.setVisible(true);
-            this.Buttons.setVisible(true);
+           //settin size of pannels
+           this.Main.setSize(850, 600);
+           this.Buttons.setSize(174, 600);
+
+           //setting color of panels
+           this.Main.setBackground(color1);
+           this.Buttons.setBackground(color2);
+
+           //setting to visible
+           this.Main.setVisible(true);
+           this.Buttons.setVisible(true);
 
             //splitpane settings
             this.SplitPane.setSize(1024,600);
@@ -45,6 +49,6 @@ public class UserInterface extends JFrame {
             this.SplitPane.setRightComponent( this.Main);
 
             //adding to ui
-            this.add(this.SplitPane);
-        }
-    }
+            this.Frame.add(this.SplitPane);
+            }
+}
