@@ -1,6 +1,7 @@
 import Interface.UserInterface;
 
 import javax.swing.*;
+import java.awt.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -22,7 +23,7 @@ public class Main {
 
                 //start de ui
                 UserInterface ui = new UserInterface();
-                SwingUtilities.invokeLater(ui);
+
 
 //        try {
 //            // 'Importeer' de driver die je gedownload hebt.
@@ -69,4 +70,8 @@ public class Main {
 //            if (con != null) try { con.close(); } catch(Exception e) {}
 //        }
     }
+
+
+
+
 }
