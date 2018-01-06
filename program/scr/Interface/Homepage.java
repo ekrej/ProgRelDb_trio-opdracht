@@ -64,7 +64,7 @@ public class Homepage implements Runnable{
     }
 
 
-    private void createButtons(Container container) {
+    public void createButtons(Container container) {
 
         //setting layout
         GridLayout layout = new GridLayout(20, 1);
@@ -73,32 +73,71 @@ public class Homepage implements Runnable{
 
 
         //initializing buttons
-        JButton overzicht_1 = new JButton("gemideld %/aflevering");
-        JButton overzicht_2 = new JButton("overzicht 2");
-        JButton overzicht_3 = new JButton("overzicht 3");
+
+        JButton overzicht_1 = new JButton("gemideld %/serie");
+        JButton overzicht_2 = new JButton("gemideld %/serie+account");
+        JButton overzicht_3 = new JButton("bekeken");
+        JButton overzicht_4 = new JButton("langste film onder 16 jaar");
+        JButton overzicht_5 = new JButton("accounts met 1 profiel");
+        JButton overzicht_6 = new JButton("hoeveel bekeken");
 
 
         //Style settings
-
-
             //main colors
         overzicht_1.setBackground(color_Buttons);
         overzicht_2.setBackground(color_Buttons);
         overzicht_3.setBackground(color_Buttons);
+        overzicht_4.setBackground(color_Buttons);
+        overzicht_5.setBackground(color_Buttons);
+        overzicht_6.setBackground(color_Buttons);
             //borders
         overzicht_1.setBorder(Border_Button);
         overzicht_2.setBorder(Border_Button);
         overzicht_3.setBorder(Border_Button);
+        overzicht_4.setBorder(Border_Button);
+        overzicht_5.setBorder(Border_Button);
+        overzicht_6.setBorder(Border_Button);
+
+
+        //actions for buttons
+        avgEpisode o_1 = new avgEpisode();
+        overzicht_1.addActionListener(o_1);
+
+        avgSerie o_2 = new avgSerie();
+        overzicht_2.addActionListener(o_2);
+
+        watched o_3 = new watched();
+        overzicht_3.addActionListener(o_3);
+
+        longestUnder o_4 = new longestUnder();
+        overzicht_4.addActionListener(o_4);
+
+        justOneProfile o_5 = new justOneProfile();
+        overzicht_5.addActionListener(o_5);
+
+        countWatched o_6 = new countWatched();
+        overzicht_6.addActionListener(o_6);
+
+
+
 
 
         //adding buttons + blanks
+        container.add(new JLabel(""));
+        container.add(new JLabel(""));
         container.add(overzicht_1);
+        container.add(new JLabel(""));
         container.add(overzicht_2);
+        container.add(new JLabel(""));
         container.add(overzicht_3);
+        container.add(new JLabel(""));
+        container.add(overzicht_4);
+        container.add(new JLabel(""));
+        container.add(overzicht_5);
+        container.add(new JLabel(""));
+        container.add(overzicht_6);
+
     }
-
-
-
 
 
 
