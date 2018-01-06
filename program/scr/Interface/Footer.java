@@ -21,7 +21,5 @@ public class Footer {
         footer.setEditable(false);
         container.add(footer);
 
-
-
     }
 }

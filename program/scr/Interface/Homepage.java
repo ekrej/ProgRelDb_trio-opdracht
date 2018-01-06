@@ -6,7 +6,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
 
-public class UserInterface implements Runnable{
+public class Homepage implements Runnable{
 
     private JFrame Frame;
     private JPanel Main;
@@ -73,7 +73,7 @@ public class UserInterface implements Runnable{
 
 
         //initializing buttons
-        JButton overzicht_1 = new JButton("overzicht 1");
+        JButton overzicht_1 = new JButton("gemideld %/aflevering");
         JButton overzicht_2 = new JButton("overzicht 2");
         JButton overzicht_3 = new JButton("overzicht 3");
 

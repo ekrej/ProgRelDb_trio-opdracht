@@ -1,4 +1,5 @@
-import Interface.UserInterface;
+import Interface.Homepage;
+
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -20,8 +21,8 @@ public class Main {
                 ResultSet rs = null;
 
                 //start de ui
-                 UserInterface ui = new UserInterface();
-                SwingUtilities.invokeLater(new UserInterface());
+                 Homepage ui = new Homepage();
+                SwingUtilities.invokeLater(ui);
 
 
 //        try {
