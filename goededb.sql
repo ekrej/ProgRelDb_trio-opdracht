@@ -6,74 +6,74 @@ use NetflixStatistix;
 
 Drop Table IF EXISTS account;
 CREATE TABLE account(
-	[Abonneenummer] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	[Naam] [varchar](50) NOT NULL,
+	[Subnumber] [int] PRIMARY KEY IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
 	[Email] [varchar](60) NOT NULL,
-	[Adres] [varchar](50) NOT NULL,
-	[Woonplaats] [varchar](50) NOT NULL,
+	[Adress] [varchar](50) NOT NULL,
+	[Residence] [varchar](50) NOT NULL,
 	)
 	;
 
-Drop Table IF EXISTS profiel;
-CREATE TABLE profiel(
-	[Naam] [varchar](50) NOT NULL,
-	[GebDatum] [date] NOT NULL,
-	[Abonneenummer] [int] NOT NULL,
+Drop Table IF EXISTS profile;
+CREATE TABLE profile(
+	[Name] [varchar](50) NOT NULL,
+	[Birthdate] [date] NOT NULL,
+	[Subnumber] [int] NOT NULL,
 	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY ,
-	CONSTRAINT Profiel_Acc 
-	FOREIGN KEY (Abonneenummer) 
-	REFERENCES account (Abonneenummer)
+	CONSTRAINT Profile_Acc 
+	FOREIGN KEY (Subnumber) 
+	REFERENCES account (Subnumber)
 	ON DELETE CASCADE,
 	);
 
-	Drop Table IF EXISTS Serie;
-	CREATE TABLE serie(
-	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
-	naam varchar(50),
-	genre varchar(20),
-	recomendation varchar(15),
+	Drop Table IF EXISTS Series;
+	CREATE TABLE series(
+	[ID] int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[Name] varchar(50),
+	[Genre] varchar(20),
+	[Recommendation] varchar(15),
 	);
 
-	Drop Table IF EXISTS Aflevering;
-	CREATE TABLE aflevering(
-	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
-	tijdsduur TIME NOT NULL,
-	aflevering_no int,
-	season int,
-	serie_ID int NOT NULL,
+	Drop Table IF EXISTS Episode;
+	CREATE TABLE Episode(
+	[ID] int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[runtime] TIME NOT NULL,
+	[Episode_no] int,
+	[Season] int,
+	[series_ID] int NOT NULL,
 	);
-	ALTER TABLE Aflevering
-	ADD CONSTRAINT aflevering_Serie FOREIGN KEY (serie_ID) REFERENCES serie(ID);
+	ALTER TABLE Episode
+	ADD CONSTRAINT Episode_Series FOREIGN KEY (series_ID) REFERENCES series(ID);
 	Drop Table IF EXISTS Film;
 CREATE TABLE Film(
-	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
-	naam varchar(50),
-	genre varchar(20),
-	tijdsduur TIME NOT NULL,
+	[ID] int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	[Name] varchar(50),
+	[Genre] varchar(20),
+	[Runtime] TIME NOT NULL,
 	);
 
 
-	Drop Table IF EXISTS programma;
-CREATE TABLE programma(
-	ID int NOT NULL ,
-	naam VARCHAR(50) NOT NULL PRIMARY KEY,
-	leeftijd int not null,
+	Drop Table IF EXISTS program;
+CREATE TABLE program(
+	[ID] int NOT NULL ,
+	[name] VARCHAR(50) NOT NULL PRIMARY KEY,
+	[Age] int not null,
 	);
-	ALTER TABLE programma
-	ADD CONSTRAINT aflevering_programma FOREIGN KEY (ID) REFERENCES aflevering(ID);
-	ALTER TABLE programma
-	ADD CONSTRAINT film_programma FOREIGN KEY (ID) REFERENCES film(ID);
+	ALTER TABLE program
+	ADD CONSTRAINT Episode_Program FOREIGN KEY (ID) REFERENCES Episode(ID);
+	ALTER TABLE program
+	ADD CONSTRAINT film_program FOREIGN KEY (ID) REFERENCES film(ID);
 	
-Drop Table IF EXISTS bekeken;
-CREATE TABLE bekeken(
-	profiel_ID int NOT NULL,
-	programma_naam varchar(50) NOT NULL,
-	Percentage_gezien int NOT NULL,
-	CONSTRAINT Profiel_bekeken FOREIGN KEY (profiel_ID) REFERENCES profiel(ID)
+Drop Table IF EXISTS watched;
+CREATE TABLE watched(
+	[profile_ID] int NOT NULL,
+	[programma_naam] varchar(50) NOT NULL,
+	[Percent_watched] int NOT NULL,
+	CONSTRAINT Profile_watched FOREIGN KEY (profile_ID) REFERENCES profile(ID)
 		ON DELETE CASCADE
 		ON UPDATE CASCADE,
 
-	CONSTRAINT bekeken_programma FOREIGN KEY (programma_naam) REFERENCES programma(naam)
+	CONSTRAINT watched_program FOREIGN KEY (program_name) REFERENCES program(name)
 		ON DELETE CASCADE
 		ON UPDATE CASCADE,
 	);
