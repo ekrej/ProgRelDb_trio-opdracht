@@ -67,7 +67,7 @@ CREATE TABLE program(
 Drop Table IF EXISTS watched;
 CREATE TABLE watched(
 	[profile_ID] int NOT NULL,
-	[programma_naam] varchar(50) NOT NULL,
+	[program_name] varchar(50) NOT NULL,
 	[Percent_watched] int NOT NULL,
 	CONSTRAINT Profile_watched FOREIGN KEY (profile_ID) REFERENCES profile(ID)
 		ON DELETE CASCADE
