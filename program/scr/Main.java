@@ -3,6 +3,7 @@ import Interface.Homepage;
 
 import javax.swing.*;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
@@ -38,7 +39,7 @@ public class Main {
 //            rs = stmt.executeQuery(SQL);
 //
 //            System.out.print(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
-//
+//            Netflix nf = new Netflix();
 //            // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
 //            while (rs.next()) {
 //                // Vraag per row de kolommen in die row op.
@@ -49,6 +50,9 @@ public class Main {
 //                String language = rs.getString("Taal");
 //                int age = rs.getInt("Leeftijd");
 //
+//                Film film = new Film(id, title, language, duration, genre, age);
+//                nf.addFilm(film);
+//
 //                // Print de kolomwaarden.
 //                System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
 //
@@ -57,6 +61,7 @@ public class Main {
 //                System.out.format("| %7d | %-32s | %-24s | \n", id, title, duration);
 //            }
 //            System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
+//
 //
 //        }
 //
