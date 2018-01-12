@@ -33,13 +33,13 @@ public class Main {
 //            con = DriverManager.getConnection(connectionUrl,"admin","admin");
 //
 //            // Stel een SQL query samen.
-//            String SQL = "SELECT * FROM Film";
+//            String SQL = "SELECT * FROM Domains.Film";
 //            stmt = con.createStatement();
 //            // Voer de query uit op de database.
 //            rs = stmt.executeQuery(SQL);
 //
 //            System.out.print(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
-//            Netflix nf = new Netflix();
+//            Films films = new Films();
 //            // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
 //            while (rs.next()) {
 //                // Vraag per row de kolommen in die row op.
@@ -50,8 +50,8 @@ public class Main {
 //                String language = rs.getString("Taal");
 //                int age = rs.getInt("Leeftijd");
 //
-//                Film film = new Film(id, title, language, duration, genre, age);
-//                nf.addFilm(film);
+//                Domains.Film film = new Domains.Film(id, title, language, duration, genre, age);
+//                films.addFilm(film);
 //
 //                // Print de kolomwaarden.
 //                System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
