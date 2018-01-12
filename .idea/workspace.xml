@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Footer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Homepage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/avgEpisode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/avgSerie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/countWatched.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/justOneProfile.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/longestUnder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/watched.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/program/.idea/workspace.xml" afterPath="$PROJECT_DIR$/program/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Main.java" afterPath="$PROJECT_DIR$/program/scr/Main.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
-    </list>
+    <list default="true" id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/program/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +28,8 @@
       <file leaf-file-name="FilmRepo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="578">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -685,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="578">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
