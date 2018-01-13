@@ -1,7 +1,6 @@
 package Repositories;
 
 import Interface.Homepage;
-import Films;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -9,9 +8,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class FilmRepo {
-
-    public FilmRepo() {
+public class AccountRepo {
+    public AccountRepo() {
         // Create a variable for the connection string.
         String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
                 "databaseName=NetflixStatistix;user=admin;password=admin";
@@ -33,13 +31,13 @@ public class FilmRepo {
             con = DriverManager.getConnection(connectionUrl,"admin","admin");
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Film";
+            String SQL = "SELECT * FROM Account";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
 
             System.out.print(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
-            Films films = new Films();
+            Accounts accounts = new Accounts();
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
@@ -50,8 +48,8 @@ public class FilmRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Film film = new Domains.Film(id, title, language, duration, genre, age);
-                films.addFilm(film);
+                Domains.Account account = new Domains.Account(id, title, language, duration, genre, age);
+                accounts.addAccount(account);
 
                 // Print de kolomwaarden.
                 System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
@@ -75,7 +73,4 @@ public class FilmRepo {
             if (con != null) try { con.close(); } catch(Exception e) {}
         }
     }
-
 }
-
-
