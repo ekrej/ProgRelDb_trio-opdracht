@@ -1,6 +1,8 @@
 package Repositories;
 
 import Interface.Homepage;
+import Constructors.Episodes;
+import Domains.Episode;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -48,8 +50,8 @@ public class EpisodeRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Episode episode = new Domains.Episode(id, title, language, duration, genre, age);
-                episodes.addSerie(serie);
+                Episode episode = new Episode(id, title, language, duration, genre, age);
+                episodes.addEpisode(episode);
 
                 // Print de kolomwaarden.
                 System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);

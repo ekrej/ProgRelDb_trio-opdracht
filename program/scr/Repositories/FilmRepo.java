@@ -1,7 +1,12 @@
 package Repositories;
 
 import Interface.Homepage;
+<<<<<<< HEAD
 import Films;
+=======
+import Constructors.Films;
+import Domains.Film;
+>>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -50,7 +55,7 @@ public class FilmRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Film film = new Domains.Film(id, title, language, duration, genre, age);
+                Film film = new Film(id, title, language, duration, genre, age);
                 films.addFilm(film);
 
                 // Print de kolomwaarden.

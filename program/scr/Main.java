@@ -39,7 +39,7 @@ public class Main {
 //            rs = stmt.executeQuery(SQL);
 //
 //            System.out.print(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
-//            Films films = new Films();
+//            Constructors.Films films = new Constructors.Films();
 //            // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
 //            while (rs.next()) {
 //                // Vraag per row de kolommen in die row op.

@@ -1,6 +1,8 @@
 package Repositories;
 
 import Interface.Homepage;
+import Constructors.Accounts;
+import Domains.Account;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -48,7 +50,7 @@ public class AccountRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Account account = new Domains.Account(id, title, language, duration, genre, age);
+                Account account = new Account(id, title, language, duration, genre, age);
                 accounts.addAccount(account);
 
                 // Print de kolomwaarden.

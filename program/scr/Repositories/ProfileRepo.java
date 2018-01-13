@@ -1,7 +1,13 @@
 package Repositories;
 
 import Interface.Homepage;
+<<<<<<< HEAD
 import Domains.Episode;
+=======
+import Constructors.Profiles;
+import Domains.Profile;
+
+>>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -50,7 +56,7 @@ public class ProfileRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Profile profile = new Domains.Profile(id, title, language, duration, genre, age);
+                Profile profile = new Profile(id, title, language, duration, genre, age);
                 profiles.addProfile(profile);
 
                 // Print de kolomwaarden.

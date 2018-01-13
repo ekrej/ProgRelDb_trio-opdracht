@@ -1,6 +1,8 @@
 package Repositories;
 
 import Interface.Homepage;
+import Constructors.Series;
+import Domains.Serie;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -49,7 +51,7 @@ public class SerieRepo {
                 String language = rs.getString("Taal");
                 int age = rs.getInt("Leeftijd");
 
-                Domains.Serie serie = new Domains.Serie(id, title, language, duration, genre, age);
+                Serie serie = new Serie(id, title, language, duration, genre, age);
                 series.addSerie(serie);
 
                 // Print de kolomwaarden.
