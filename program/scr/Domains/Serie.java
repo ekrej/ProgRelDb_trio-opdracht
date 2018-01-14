@@ -4,16 +4,16 @@ public class Serie {
     private int id;
     private String name;
     private String language;
-    private String duration;
+    private String recommendation;
     private String genre;
     private int age;
 
-    public Serie(int id, String name, String language, String duration, String genre, int age) {
+    public Serie(int id, String name, String language, String recommendation, String genre) {
         this.id = id;
         this.name = name;
         this.language = language;
-        this.duration = duration;
+        this.recommendation = recommendation;
         this.genre = genre;
-        this.age = age;
+
     }
 }

@@ -1,12 +1,11 @@
 package Repositories;
 
 import Interface.Homepage;
-<<<<<<< HEAD
-import Films;
-=======
+
+
 import Constructors.Films;
 import Domains.Film;
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
+
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -35,10 +34,12 @@ public class FilmRepo {
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl,"admin","admin");
+            con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Film";
+            String SQL = "SelECT *\n" +
+                    "FROM Film, program\n" +
+                    "where Film.ID = program.F_ID";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -49,11 +50,11 @@ public class FilmRepo {
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
                 int id = rs.getInt("id");
-                String title = rs.getString("Titel");
-                String duration = rs.getString("Tijdsduur");
+                String title = rs.getString("Name");
+                String duration = rs.getString("Runtime");
                 String genre = rs.getString("Genre");
-                String language = rs.getString("Taal");
-                int age = rs.getInt("Leeftijd");
+                String language = rs.getString("language");
+                int age = rs.getInt("age");
 
                 Film film = new Film(id, title, language, duration, genre, age);
                 films.addFilm(film);

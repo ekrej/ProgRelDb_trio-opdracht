@@ -30,10 +30,12 @@ public class EpisodeRepo {
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl,"admin","admin");
+            con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Episode";
+            String SQL = "SELECT *\n" +
+                    "FROM Episode, program\n" +
+                    "WHERE Episode.ID = program.E_ID";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -44,17 +46,17 @@ public class EpisodeRepo {
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
                 int id = rs.getInt("id");
-                String title = rs.getString("Titel");
-                String duration = rs.getString("Tijdsduur");
-                String genre = rs.getString("Genre");
-                String language = rs.getString("Taal");
-                int age = rs.getInt("Leeftijd");
+                String title = rs.getString("Name");
+                String duration = rs.getString("Runtime");
+                String Season = rs.getString("Season");
+                String language = rs.getString("language");
+                int age = rs.getInt("age");
 
-                Episode episode = new Episode(id, title, language, duration, genre, age);
+                Episode episode = new Episode(id, title, language, duration, Season, age);
                 episodes.addEpisode(episode);
 
                 // Print de kolomwaarden.
-                System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
+                System.out.println(id + " " + title + " " + duration + " " + Season + " " + language + " " + age);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.

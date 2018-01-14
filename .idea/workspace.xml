@@ -1,65 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="">
-<<<<<<< HEAD
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Accounts.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Domains/Account.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Domains/Episode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Domains/Profile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Domains/Serie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Domains/Watched.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Episodes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Profiles.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/program/scr/Series.java" />
+    <list default="true" id="72bc9007-7148-4abf-9cdd-d8fc62f8ee04" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_6_2_2_jre8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_6_2_2_jre8.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Netflix_Statistix.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Netflix_Statistix.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Netflix_Statistix.iml" afterPath="$PROJECT_DIR$/Netflix_Statistix.iml" />
-      <change beforePath="$PROJECT_DIR$/goededb.sql" afterPath="$PROJECT_DIR$/goededb.sql" />
-      <change beforePath="$PROJECT_DIR$/insertdata.sql" afterPath="$PROJECT_DIR$/insertdata.sql" />
-      <change beforePath="$PROJECT_DIR$/program/.idea/misc.xml" afterPath="$PROJECT_DIR$/program/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/program/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/program/.idea/workspace.xml" afterPath="$PROJECT_DIR$/program/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/program/NSS_werkend.sql" afterPath="$PROJECT_DIR$/program/NSS_werkend.sql" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Film.java" afterPath="$PROJECT_DIR$/program/scr/Domains/Film.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Films.java" afterPath="$PROJECT_DIR$/program/scr/Films.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/Footer.java" afterPath="$PROJECT_DIR$/program/scr/Interface/Footer.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/Homepage.java" afterPath="$PROJECT_DIR$/program/scr/Interface/Homepage.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/avgEpisode.java" afterPath="$PROJECT_DIR$/program/scr/Interface/avgEpisode.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/avgSerie.java" afterPath="$PROJECT_DIR$/program/scr/Interface/avgSerie.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/countWatched.java" afterPath="$PROJECT_DIR$/program/scr/Interface/countWatched.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/justOneProfile.java" afterPath="$PROJECT_DIR$/program/scr/Interface/justOneProfile.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/longestUnder.java" afterPath="$PROJECT_DIR$/program/scr/Interface/longestUnder.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Interface/watched.java" afterPath="$PROJECT_DIR$/program/scr/Interface/watched.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Domains/Account.java" afterPath="$PROJECT_DIR$/program/scr/Domains/Account.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Domains/Episode.java" afterPath="$PROJECT_DIR$/program/scr/Domains/Episode.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Domains/Profile.java" afterPath="$PROJECT_DIR$/program/scr/Domains/Profile.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Domains/Serie.java" afterPath="$PROJECT_DIR$/program/scr/Domains/Serie.java" />
       <change beforePath="$PROJECT_DIR$/program/scr/Main.java" afterPath="$PROJECT_DIR$/program/scr/Main.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
       <change beforePath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
-=======
-      <change type="DELETED" beforePath="$PROJECT_DIR$/program/scr/Accounts.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/program/scr/Accounts.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/program/scr/Episodes.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/program/scr/Films.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Films.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/program/scr/Profiles.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/program/scr/Series.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Main.java" afterPath="$PROJECT_DIR$/program/scr/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
+      <change beforePath="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/program/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,52 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="Accounts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/scr/Accounts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-=======
-      <file leaf-file-name="FilmRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765862697" expanded="true" signature="1062:1080" ph="SELECT * FRO... Film" />
-              </folding>
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Profiles.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/program/scr/Profiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-=======
-      <file leaf-file-name="SerieRepo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1515765862135" expanded="true" signature="1066:1085" ph="SELECT * FRO... Serie" />
-              </folding>
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,36 +45,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/program/scr/Interface/Netflix.java" />
-        <option value="$PROJECT_DIR$/program/scr/Netflix.java" />
-        <option value="$PROJECT_DIR$/program/scr/Film.java" />
-        <option value="$PROJECT_DIR$/program/scr/Films.java" />
-        <option value="$PROJECT_DIR$/program/scr/Main.java" />
-        <option value="$PROJECT_DIR$/program/scr/Domains/Film.java" />
-        <option value="$PROJECT_DIR$/program/scr/Domains/Account.java" />
-        <option value="$PROJECT_DIR$/program/scr/Domains/Episode.java" />
-        <option value="$PROJECT_DIR$/program/scr/Domains/Profile.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/HomePage.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/footer.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/Footer.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/UserInterface.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/Frame.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/homepage.java" />
+        <option value="$PROJECT_DIR$/scr/Main.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/ClickListener.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/actionListener.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/avg_tijdsduur.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/ActionListener.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/btn_actions.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/bekeken.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/langsteOnderTwaalf.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/avg_serie.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/justOneProfile.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/LongestUnder.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/longestUnder.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/Watched.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/watched.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/countWatched.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/avgEpisode.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/avgSerie.java" />
+        <option value="$PROJECT_DIR$/scr/Interface/Homepage.java" />
         <option value="$PROJECT_DIR$/program/scr/Domains/Serie.java" />
-        <option value="$PROJECT_DIR$/program/scr/Accounts.java" />
-        <option value="$PROJECT_DIR$/program/scr/Episodes.java" />
-        <option value="$PROJECT_DIR$/program/scr/Profiles.java" />
-        <option value="$PROJECT_DIR$/program/scr/Series.java" />
-        <option value="$PROJECT_DIR$/program/scr/Domains/Watched.java" />
-        <option value="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" />
-        <option value="$PROJECT_DIR$/program/scr/Constructors/Films.java" />
-        <option value="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" />
-        <option value="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
-        <option value="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
-        <option value="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
-        <option value="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
-        <option value="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
-        <option value="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
-        <option value="$PROJECT_DIR$/program/scr/test.java" />
-=======
         <option value="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
+        <option value="$PROJECT_DIR$/program/scr/Main.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Domains/Profile.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Domains/Episode.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Domains/Account.java" />
       </list>
     </option>
   </component>
@@ -173,12 +89,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2196" />
-    <option name="y" value="-24" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-118" />
+    <option name="y" value="-11" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -194,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,29 +140,31 @@
               <item name="ProgRelDb_trio-opdracht" type="b2602c69:ProjectViewProjectNode" />
               <item name="program" type="462c0819:PsiDirectoryNode" />
               <item name="scr" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProgRelDb_trio-opdracht" type="b2602c69:ProjectViewProjectNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-              <item name="scr" type="462c0819:PsiDirectoryNode" />
               <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sqljdbc_6.2/enu/mssql-jdbc-6.2.2.jre8.jar!/" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Interface" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -293,7 +211,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -322,7 +240,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -351,35 +269,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc22bb8e-0ef1-45d9-813c-9eece0bcebaf" name="Default" comment="" />
-      <created>1515413213965</created>
+      <changelist id="72bc9007-7148-4abf-9cdd-d8fc62f8ee04" name="Default" comment="" />
+      <created>1515077311884</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1515413213965</updated>
-      <workItem from="1515413215574" duration="1920000" />
+      <updated>1515077311884</updated>
+      <workItem from="1515412883534" duration="69000" />
+      <workItem from="1515413092204" duration="42000" />
+      <workItem from="1515413152736" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20735000" />
+    <option name="totallyTimeSpent" value="169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1688708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -389,14 +309,44 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TMC Project List" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -405,421 +355,167 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml">
+    <entry file="file://$PROJECT_DIR$/scr/Interface/justOneProfile.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/countWatched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/longestUnder.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/watched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgSerie.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgEpisode.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Footer.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Main.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/countWatched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/justOneProfile.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/longestUnder.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/watched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgSerie.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgEpisode.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Footer.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Main.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Footer.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Main.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Footer.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Footer.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Frame.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/ClickListener.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/ActionListener.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/btn_actions.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/justOneProfile.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/longestUnder.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/watched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/countWatched.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgEpisode.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/avgSerie.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Interface/Homepage.java" />
+    <entry file="file://$PROJECT_DIR$/scr/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/net/URLClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="7208">
+          <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Profiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/runConfigurations/Netflix_Statistix.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7299">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix_Statistix.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/program/NetflixStatistixScript.sql" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/URLClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/UserInterface.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/sqljdbc42.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/runConfigurations/Netflix_Statistix.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7299">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix_Statistix.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/program/NetflixStatistixScript.sql" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/URLClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/UserInterface.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/avgEpisode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/Footer.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="378">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/justOneProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/longestUnder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/countWatched.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/avgSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Netflix.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Account.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Profile.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Serie.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Series.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Watched.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
-=======
     <entry file="file://$PROJECT_DIR$/program/scr/Domains/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Serie.java">
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/test.java" />
-    <entry file="file://$PROJECT_DIR$/program/scr/Films.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-=======
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Watched.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Domains/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Episodes.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Watched.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-=======
-    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Main.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Serie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="90" lean-forward="false" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Domains/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Films.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Domains/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Profiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Series.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="35" />
           <folding />
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Accounts.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-238">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-        <state relative-caret-position="80">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Episodes.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="459">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           <folding>
-            <marker date="1515765862854" expanded="true" signature="1075:1096" ph="SELECT * FRO... Profile" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765861822" expanded="true" signature="1073:1094" ph="SELECT * FRO... Account" />
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/program/scr/Accounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Profiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-=======
     <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765862626" expanded="true" signature="1073:1094" ph="SELECT * FRO... Episode" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765862697" expanded="true" signature="1062:1080" ph="SELECT * FRO... Film" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1515765862135" expanded="true" signature="1066:1085" ph="SELECT * FRO... Serie" />
-          </folding>
->>>>>>> 3d53b9ceed59b97732cfe9638964b1c626078a62
+        <state relative-caret-position="544">
+          <caret line="58" column="83" lean-forward="false" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,18 +577,6 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

@@ -30,7 +30,7 @@ public class AccountRepo {
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl,"admin","admin");
+            con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
             String SQL = "SELECT * FROM Account";
@@ -43,22 +43,21 @@ public class AccountRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int id = rs.getInt("id");
-                String title = rs.getString("Titel");
-                String duration = rs.getString("Tijdsduur");
-                String genre = rs.getString("Genre");
-                String language = rs.getString("Taal");
-                int age = rs.getInt("Leeftijd");
+                int SubNo = rs.getInt("Subnumber");
+                String Name = rs.getString("Name");
+                String Email = rs.getString("Email");
+                String Adress = rs.getString("Adress");
+                String Residence = rs.getString("Residence");
 
-                Account account = new Account(id, title, language, duration, genre, age);
+                Account account = new Account(SubNo, Name, Email, Adress, Residence);
                 accounts.addAccount(account);
 
                 // Print de kolomwaarden.
-                System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
+                System.out.println(SubNo + " " + Name + " " + Email + " " + Adress + " " + Residence);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", id, title, duration);
+                System.out.format("| %7d | %-32s | %-24s | \n", SubNo, Name, Email);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 

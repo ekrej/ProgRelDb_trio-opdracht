@@ -3,17 +3,15 @@ package Domains;
 public class Profile {
     private int id;
     private String name;
-    private String language;
-    private String duration;
-    private String genre;
-    private int age;
+    private String Subno;
+    private String Birthdate;
 
-    public Profile(int id, String name, String language, String duration, String genre, int age) {
+
+    public Profile(int id, String name, String Subno, String Birthdate) {
         this.id = id;
         this.name = name;
-        this.language = language;
-        this.duration = duration;
-        this.genre = genre;
-        this.age = age;
+        this.Subno = Subno;
+        this.Birthdate = Birthdate;
+
     }
 }
