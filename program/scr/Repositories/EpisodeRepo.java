@@ -2,7 +2,7 @@ package Repositories;
 
 import Interface.Homepage;
 import Constructors.Episodes;
-import Domains.Episode;
+import Controllers.Episode;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -11,15 +11,17 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class EpisodeRepo {
-    public EpisodeRepo() {
-        // Create a variable for the connection string.
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-                "databaseName=NetflixStatistix;user=admin;password=admin";
 
-        // Declare the JDBC objects.
-        Connection con = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+    // Create a variable for the connection string.
+    String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+            "databaseName=NetflixStatistix;user=admin;password=admin";
+
+    // Declare the JDBC objects.
+    Connection con = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+    public EpisodeRepo() {
 
         //start de ui
         Homepage ui = new Homepage();
@@ -66,6 +68,31 @@ public class EpisodeRepo {
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 
 
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void avgEpisodeWatched() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT AVG(Percent_Watched) FROM Watched WHERE Program_Name = " ;//+ Stringnaam;
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
         }
 
         // Handle any errors that may have occurred.

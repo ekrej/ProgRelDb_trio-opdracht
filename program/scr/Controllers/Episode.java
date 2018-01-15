@@ -1,4 +1,4 @@
-package Domains;
+package Controllers;
 
 public class Episode {
     private int id;

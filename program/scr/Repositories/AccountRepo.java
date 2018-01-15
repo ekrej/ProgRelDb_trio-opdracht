@@ -2,7 +2,7 @@ package Repositories;
 
 import Interface.Homepage;
 import Constructors.Accounts;
-import Domains.Account;
+import Controllers.Account;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -11,17 +11,20 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class AccountRepo {
+
+    // Create a variable for the connection string.
+    String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+            "databaseName=NetflixStatistix;user=admin;password=admin";
+
+    // Declare the JDBC objects.
+    Connection con = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+
     public AccountRepo() {
-        // Create a variable for the connection string.
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-                "databaseName=NetflixStatistix;user=admin;password=admin";
 
-        // Declare the JDBC objects.
-        Connection con = null;
-        Statement stmt = null;
-        ResultSet rs = null;
-
-        //start de ui
+//      start de ui
         Homepage ui = new Homepage();
         SwingUtilities.invokeLater(ui);
 
@@ -62,6 +65,56 @@ public class AccountRepo {
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 
 
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void allAccounts() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT Email FROM Account";
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void showAccountWithOneProfile() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT Account.Email, Account.Name FROM Profile JOIN Account ON profile.Subnumber = Account.Subnumber GROUP BY Account.Email, Account.Name HAVING (COUNT(Profile.Subnumber) = 1)";
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
         }
 
         // Handle any errors that may have occurred.
