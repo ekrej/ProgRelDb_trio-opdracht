@@ -17,6 +17,8 @@ public class Homepage implements Runnable{
     private Color color_Buttons = new Color(95, 95, 95);
     private Border Border_Button = new LineBorder(color_ButtonPanel);
 
+    String[] AvgPercetage = {"Sherlock", "Breaking Bad", "Fargo"};
+
 
 
     @Override
@@ -47,9 +49,6 @@ public class Homepage implements Runnable{
            //adding navigation buttons
            createButtons(this.Buttons);
 
-           //adding footer
-            Footer footer = new Footer();
-            footer.addFooter(this.Main);
 
             //splitpane settings
             this.SplitPane.setSize(1024,600);
@@ -100,7 +99,8 @@ public class Homepage implements Runnable{
 
 
         //actions for buttons
-
+        ClickListener cl = new ClickListener(this.Main, AvgPercetage);
+        overzicht_1.addActionListener(cl);
 
 
 
@@ -121,6 +121,10 @@ public class Homepage implements Runnable{
         container.add(new JLabel(""));
         container.add(overzicht_6);
 
+    }
+
+    public JFrame getFrame() {
+        return this.Frame;
     }
 
 
