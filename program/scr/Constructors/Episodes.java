@@ -1,5 +1,6 @@
 package Constructors;
 
+import Controllers.Episode;
 import Domains.Episode;
 
 import java.util.ArrayList;
