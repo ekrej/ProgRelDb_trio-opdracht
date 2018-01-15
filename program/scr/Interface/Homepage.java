@@ -19,7 +19,10 @@ public class Homepage implements Runnable{
     private Color color_Buttons = new Color(95, 95, 95);
     private Border Border_Button = new LineBorder(color_ButtonPanel);
 
-    String[] AvgPercetage = {"Sherlock", "Breaking Bad", "Fargo"};
+    private String[] AvgPercetage = {"Sherlock", "Breaking Bad", "Fargo"};
+    private String[] AvgAccount = {"Fam. van Raalte", "F. de kat", "J. van Betlehem"};
+    private String[] Watched = {"Fam. van Raalte", "F. de kat", "J. van Betlehem"};
+    private String[] HowMany = {"A Clockwork Orange", "Andy Warhol’s Dracula", "De helaasheid der dingen", "Der Untergang", "Ober", "Pruimebloesem", "Pulp Fiction" };
 
 
 
@@ -104,8 +107,19 @@ public class Homepage implements Runnable{
 
 
         //actions for buttons
-        ClickListener cl = new ClickListener(this.Main, AvgPercetage);
-        overzicht_1.addActionListener(cl);
+        ClickListener cl1 = new ClickListener(this.Main, AvgPercetage, overzicht_1, 1);
+        overzicht_1.addActionListener(cl1);
+        ClickListener cl2 = new ClickListener(this.Main, AvgAccount, overzicht_2,2);
+        overzicht_2.addActionListener(cl2);
+        ClickListener cl3 = new ClickListener(this.Main, Watched, overzicht_3,3);
+        overzicht_3.addActionListener(cl3);
+        ClickListener cl6 = new ClickListener(this.Main, HowMany, overzicht_6,6);
+        overzicht_6.addActionListener(cl6);
+
+        ClickListener cl4 = new ClickListener(this.Main, overzicht_4,4);
+        overzicht_4.addActionListener(cl4);
+        ClickListener cl5 = new ClickListener(this.Main, overzicht_5,5);
+        overzicht_5.addActionListener(cl5);
 
 
 
