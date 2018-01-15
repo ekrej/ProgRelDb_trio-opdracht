@@ -1,6 +1,6 @@
 package Constructors;
 
-import Domains.Profile;
+import Controllers.Profile;
 
 import java.util.ArrayList;
 

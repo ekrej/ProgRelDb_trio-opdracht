@@ -1,4 +1,4 @@
-package Domains;
+package Controllers;
 //Goede Column names nog invoeren!
 public class Serie {
     private int id;

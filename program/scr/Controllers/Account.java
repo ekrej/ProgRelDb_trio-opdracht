@@ -1,4 +1,4 @@
-package Domains;
+package Controllers;
 
 public class Account {
     private int subNo;

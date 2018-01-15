@@ -1,4 +1,4 @@
-package Domains;
+package Controllers;
 
 public class Profile {
     private int id;
