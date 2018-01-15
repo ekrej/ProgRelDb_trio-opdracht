@@ -32,20 +32,20 @@ public class ClickListener implements ActionListener{
         container.removeAll();
             if(this.ID == 1){
                 Combobox cb = new Combobox();
-                cb.AddBox(this.container, this.strings);
+                cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 2){
                 Combobox cb = new Combobox();
-                cb.AddBox(this.container, this.strings);
+                cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 3){
                 Combobox cb = new Combobox();
-                cb.AddBox(this.container, this.strings);
+                cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 4){
 
             }else if(this.ID == 5){
 
             }else if(this.ID == 6){
                 Combobox cb = new Combobox();
-                cb.AddBox(this.container, this.strings);
+                cb.AddBox(this.container, this.strings, this.ID);
             }
 
 

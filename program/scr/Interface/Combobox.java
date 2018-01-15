@@ -4,19 +4,22 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Combobox {
+public class Combobox{
     private Color color_Box = new Color(95, 95, 95);
     private Border Border_Box = new LineBorder(new Color(77,77,77));
 
 
-    public void AddBox(Container container, String[] strings){
+    public void AddBox(Container container, String[] strings, int ID){
         GridLayout layout = new GridLayout(20, 1);
         container.setLayout(layout);
 
         JComboBox cb = new JComboBox(strings);
         cb.setBackground(color_Box);
         cb.setBorder(Border_Box);
+
         container.add(cb);
 
 
@@ -27,8 +30,6 @@ public class Combobox {
         container.revalidate();
         container.repaint();
     }
-
-    
 
 
 }
