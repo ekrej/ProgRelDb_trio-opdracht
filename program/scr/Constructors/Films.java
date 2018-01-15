@@ -18,4 +18,7 @@ public class Films {
         films.add(film);
     }
 
+    public ArrayList<Film> getFilms() {
+        return films;
+    }
 }

@@ -16,4 +16,7 @@ public class Accounts {
         accounts.add(account);
     }
 
+    public ArrayList<Account> getAccounts() {
+        return accounts;
+    }
 }

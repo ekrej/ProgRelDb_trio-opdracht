@@ -17,4 +17,7 @@ public class Series {
         series.add(serie);
     }
 
+    public ArrayList<Serie> getSeries() {
+        return series;
+    }
 }

@@ -17,4 +17,7 @@ public class Episodes {
         episodes.add(episode);
     }
 
+    public ArrayList<Episode> getEpisodes() {
+        return episodes;
+    }
 }

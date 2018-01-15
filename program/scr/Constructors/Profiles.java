@@ -17,4 +17,7 @@ public class Profiles {
         profiles.add(profile);
     }
 
+    public ArrayList<Profile> getProfiles() {
+        return profiles;
+    }
 }
