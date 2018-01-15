@@ -1,7 +1,6 @@
 package Interface;
 
-import Overviews.AvgAccount;
-import Overviews.AvgSerie;
+import Overviews.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,20 +10,23 @@ import java.awt.event.ActionListener;
 public class SelectListener implements ActionListener{
     private String selected;
     private int ID;
+    private Container container;
 
     public SelectListener(String selected, int ID,Container container){
         this.selected = selected;
         this.ID = ID;
+        this.container = container;
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        AvgSerie AS = new AvgSerie(container);
-        AvgAccount AV = new AvgAccount(container);
-        L
+        AvgSerie AS = new AvgSerie(this.container);
+        AvgAccount AV = new AvgAccount(this.container);
+        HowMany HM = new HowMany(this.container);
+        Watched W = new Watched(this.container);
         switch (selected){
             case "Sherlock":
-
+                    
                 break;
             case "Breaking Bad":
 

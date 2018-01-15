@@ -1,7 +1,7 @@
 package Constructors;
 
 import Controllers.Profile;
-import Domains.Profile;
+
 
 import java.util.ArrayList;
 
