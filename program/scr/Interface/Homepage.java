@@ -6,6 +6,8 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
 
+//Homepage laat 6 keuzes zien (overviews van de queries)
+
 public class Homepage implements Runnable{
 
     private JFrame Frame;
