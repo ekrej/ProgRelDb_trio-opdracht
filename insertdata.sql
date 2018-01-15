@@ -1,142 +1,142 @@
 use NetflixStatistix
 
 /*account data*/
-INSERT INTO account (Subnumber, Name, Email, Adress, Residence)
+INSERT INTO Account (Subnumber, Name, Email, Adress, Residence)
 VALUES (1215426, 'Fam. van Raalte', 'Raalte@gmail.com', 'Schopenhauerdijkje 5 3991 ML', 'Houten' );
 
-INSERT INTO account (Subnumber, Name, Email, Adress, Residence)
+INSERT INTO Account (Subnumber, Name, Email, Adress, Residence)
 VALUES (5602533, 'J. van Betlehem', 'JvBetlehem@hotmail.de', 'Nietzschestraat 99 8542 BE', 'Breda' );
 
-INSERT INTO account (Subnumber, Name, Email, Adress, Residence)
+INSERT INTO Account (Subnumber, Name, Email, Adress, Residence)
 VALUES (5285824, 'F. de Kat', 'FitKat@gmail.com', 'Kantlaan 11 8542 CD', 'breda' );
 
 
 /*profile data*/
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (1215426,'Frank', '1968-1-25');
 
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (1215426, 'Madelief', '2001-8-19');
 
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (5602533, 'Petrus', '1999-6-26');
 
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (5602533, 'Paulus', '1999-6-26');
 
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (5285824, 'Fritz', '1968-8-19');
 
-INSERT INTO profile(Subnumber, Name, Birthdate)
+INSERT INTO Profile(Subnumber, Name, Birthdate)
 VALUES (5285824, 'Diana', '1988-12-25');
 
 
 /*Serie Data*/
-INSERT INTO series(Name, Genre, Recommendation, language)
+INSERT INTO Series(Name, Genre, Recommendation, Language)
 Values('sherlock', 'Detective', 'Fargo', 'Engels');
 
-INSERT INTO series(Name, Genre, Recommendation, language)
+INSERT INTO Series(Name, Genre, Recommendation, Language)
 Values('Breaking Bad', 'Spanning', 'Fargo', 'Engels-Amerikaans');
 
-INSERT INTO series(Name, Genre, Recommendation, language)
+INSERT INTO Series(Name, Genre, Recommendation, Language)
 Values('fargo', 'Spanning', 'Breaking bad', 'Engels-Amerikaans');
 
 
 /*Episode Data*/
 	/*Sherlock*/
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1001, '01:18:00', 01, 'S01', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1002, '01:18:00', 02, 'S01', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1003, '01:18:00', 03, 'S01', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1004, '01:18:00', 01, 'S02', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1005, '01:18:00', 02, 'S02', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1006, '01:18:00', 03, 'S02', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1007, '01:18:00', 01, 'S03', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1008, '01:18:00', 02, 'S03', 1);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(1009, '01:18:00', 03, 'S03', 1);
 
 	/*Breaking bad*/
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2000, '00:58:00', 01, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2001, '00:48:00', 02, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2002, '00:48:00', 03, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2003, '00:48:00', 04, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2004, '00:48:00', 05, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2005, '00:48:00', 06, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2006, '00:48:00', 07, 'S01', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2007, '00:48:00', 01, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2008, '00:48:00', 02, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2009, '00:48:00', 03, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2010, '00:48:00', 04, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2011, '00:48:00', 05, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2012, '00:48:00', 06, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2013, '00:48:00', 07, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2014, '00:48:00', 08, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2015, '00:48:00', 09, 'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2016, '00:48:00', 10,'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2017, '00:48:00', 11,'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2018, '00:48:00', 12,'S02', 2);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(2019, '00:48:00', 13,'S02', 2);
 
 	/*fargo*/
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(3001, '01:08:00', 01, 'S01', 3);
 
-	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
+	INSERT INTO Episode(ID, Runtime, Episode_No, Season, Series_ID)
 	Values(3002, '01:08:00', 02, 'S01', 3);
 
 	INSERT INTO Episode(ID, runtime, Episode_no, Season, series_ID)
