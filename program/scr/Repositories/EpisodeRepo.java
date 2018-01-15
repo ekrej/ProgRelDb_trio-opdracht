@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class EpisodeRepo {
+    private String s;
 
     // Create a variable for the connection string.
     String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
@@ -89,7 +90,7 @@ public class EpisodeRepo {
             con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT AVG(Percent_Watched) FROM Watched WHERE Program_Name = " ;//+ Stringnaam;
+            String SQL = "SELECT AVG(Percent_Watched) FROM Watched WHERE Program_Name = " + s ;
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
