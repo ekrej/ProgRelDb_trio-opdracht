@@ -100,23 +100,7 @@ public class Homepage implements Runnable{
 
 
         //actions for buttons
-        avgEpisode o_1 = new avgEpisode();
-        overzicht_1.addActionListener(o_1);
 
-        avgSerie o_2 = new avgSerie();
-        overzicht_2.addActionListener(o_2);
-
-        watched o_3 = new watched();
-        overzicht_3.addActionListener(o_3);
-
-        longestUnder o_4 = new longestUnder();
-        overzicht_4.addActionListener(o_4);
-
-        justOneProfile o_5 = new justOneProfile();
-        overzicht_5.addActionListener(o_5);
-
-        countWatched o_6 = new countWatched();
-        overzicht_6.addActionListener(o_6);
 
 
 

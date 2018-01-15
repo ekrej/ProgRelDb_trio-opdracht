@@ -13,18 +13,18 @@ public class Main {
 
 
 
-//                // Create a variable for the connection string.
-//                String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-//                        "databaseName=NetflixStatistix;user=admin;password=admin";
-//
-//                // Declare the JDBC objects.
-//                Connection con = null;
-//                Statement stmt = null;
-//                ResultSet rs = null;
-//
-//                //start de ui
-////                 Homepage ui = new Homepage();
-////                SwingUtilities.invokeLater(ui);
+                // Create a variable for the connection string.
+                String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+                        "databaseName=NetflixStatistix;user=admin;password=admin";
+
+                // Declare the JDBC objects.
+                Connection con = null;
+                Statement stmt = null;
+                ResultSet rs = null;
+
+                //start de ui
+                 Homepage ui = new Homepage();
+        SwingUtilities.invokeLater(ui);
 //
 //
 //        try {
