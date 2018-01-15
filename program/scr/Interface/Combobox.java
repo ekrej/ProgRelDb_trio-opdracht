@@ -19,7 +19,9 @@ public class Combobox{
         JComboBox cb = new JComboBox(strings);
         cb.setBackground(color_Box);
         cb.setBorder(Border_Box);
-
+        String s = (String) cb.getSelectedItem();
+        SelectListener sl = new SelectListener(s, ID, container);
+        cb.addActionListener(sl);
         container.add(cb);
 
 

@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a589a5d-9be1-4d38-bb1a-a92e04ca9348" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/SelectListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Overviews/AvgAccount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Overviews/Longest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Overviews/OnlyOne.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Overviews/Watched.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/ClickListener.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/ClickListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Combobox.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Combobox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Homepage.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/Homepage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/AccountRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/AccountRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/EpisodeRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/EpisodeRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/FilmRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/FilmRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/SerieRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/SerieRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/WatchedRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/WatchedRepo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/program/scr/Overviews/HowMany.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Constructors/Films.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Films.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Constructors/Series.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" afterPath="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Interface/Combobox.java" afterPath="$PROJECT_DIR$/program/scr/Interface/Combobox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Interface/SelectListener.java" afterPath="$PROJECT_DIR$/program/scr/Interface/SelectListener.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/program/out/" />
@@ -39,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1080">
-              <caret line="126" column="27" lean-forward="true" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
+              <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding>
                 <marker date="1516041622380" expanded="true" signature="1478:1486" ph="{...}" />
               </folding>
@@ -62,8 +49,8 @@
       <file leaf-file-name="AvgSerie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="203">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,9 +62,13 @@
         <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Episodes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1516048105450" expanded="false" signature="228:239" ph=" { " />
+                <marker date="1516048105450" expanded="false" signature="268:274" ph=" }" />
+                <marker date="1516048105450" expanded="false" signature="319:330" ph=" { " />
+                <marker date="1516048105450" expanded="false" signature="352:358" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -87,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/program/scr/Controllers/Episode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,12 +88,12 @@
         <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+              <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516047941976" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
-                <marker date="1516047941976" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
-                <marker date="1516047941976" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
+                <marker date="1516048069426" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
+                <marker date="1516048069426" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
+                <marker date="1516048069426" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
               </folding>
             </state>
           </provider>
@@ -144,8 +135,8 @@
         <option value="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
         <option value="$PROJECT_DIR$/program/scr/Repositories/ProfileRepo.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
         <option value="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
       </list>
     </option>
   </component>
@@ -461,11 +452,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10480000" />
+    <option name="totallyTimeSpent" value="10622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -601,9 +591,9 @@
           <caret line="105" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="105" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516047941976" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
-            <marker date="1516047941976" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
-            <marker date="1516047941976" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
+            <marker date="1516048069426" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
           </folding>
         </state>
       </provider>
@@ -756,9 +746,9 @@
           <caret line="105" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="105" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516047941976" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
-            <marker date="1516047941976" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
-            <marker date="1516047941976" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
+            <marker date="1516048069426" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
           </folding>
         </state>
       </provider>
@@ -837,9 +827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,9 +845,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/program/scr/Controllers/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -955,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding>
             <marker date="1516041622380" expanded="true" signature="1478:1486" ph="{...}" />
           </folding>
@@ -965,7 +951,7 @@
     <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
-          <caret line="126" column="27" lean-forward="true" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
+          <caret line="126" column="27" lean-forward="false" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,9 +961,13 @@
     <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Episodes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1516048105450" expanded="false" signature="228:239" ph=" { " />
+            <marker date="1516048105450" expanded="false" signature="268:274" ph=" }" />
+            <marker date="1516048105450" expanded="false" signature="319:330" ph=" { " />
+            <marker date="1516048105450" expanded="false" signature="352:358" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -985,20 +975,20 @@
     <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516047941976" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
-            <marker date="1516047941976" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
-            <marker date="1516047941976" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="1057:1171" ph="SELECT *\nFR... Episode" />
+            <marker date="1516048069426" expanded="true" signature="3513:3574" ph="SELECT AVG(P... Watched" />
+            <marker date="1516048069426" expanded="true" signature="3513:3575" ph="SELECT AVG(P... Watched" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="203">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
