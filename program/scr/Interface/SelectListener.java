@@ -26,13 +26,13 @@ public class SelectListener implements ActionListener{
         Watched W = new Watched(this.container);
         switch (selected){
             case "Sherlock":
-                AS.;
+                AS.labelsSherlock();
                 break;
             case "Breaking Bad":
-                AS.;
+                AS.labelsBreakingBad();
                 break;
             case "Fargo":
-                AS.;
+                AS.labelsFargo();
                 break;
             case "Fam. van Raalte":
                 switch(ID){

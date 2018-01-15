@@ -1,6 +1,8 @@
 package Overviews;
 
+import Constructors.Episodes;
 import Constructors.Films;
+import Controllers.Film;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,11 +10,12 @@ import java.util.ArrayList;
 
 public class HowMany {
     private Container container;
-    private ArrayList<Films> films;
+    private ArrayList<Film> films;
 
-    public HowMany(Container container, ArrayList films) {
+    public HowMany(Container container) {
         this.container = container;
-        this.films = films;
+        Films episode = new Films();
+        this.films = episode.getFilms();
     }
 
     public void filmLabels() {

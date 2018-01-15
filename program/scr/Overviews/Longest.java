@@ -10,9 +10,10 @@ public class Longest {
     private Container container;
     private ArrayList<Films> films;
 
-    public Longest(Container container, ArrayList films) {
+    public Longest(Container container) {
         this.container = container;
-        this.films = films;
+        Films episode = new Films();
+        this.films = episode.getFilms();
     }
 
     public void longestLabels() {

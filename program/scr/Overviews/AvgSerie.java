@@ -2,6 +2,7 @@ package Overviews;
 
 
 import Constructors.Episodes;
+import Controllers.Episode;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,12 +10,13 @@ import java.util.ArrayList;
 
 public class AvgSerie {
     private Container container;
-    private ArrayList<Episodes> episodes;
+    private ArrayList<Episode> episodes;
     private int seriesID;
 
-    public AvgSerie(Container container, ArrayList episodes) {
+    public AvgSerie(Container container) {
         this.container = container;
-        this.episodes = episodes;
+        Episodes episode = new Episodes();
+        this.episodes = episode.getEpisodes();
     }
 
     public void labelsSherlock() {

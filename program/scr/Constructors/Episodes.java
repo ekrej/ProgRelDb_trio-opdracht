@@ -18,6 +18,6 @@ public class Episodes {
     }
 
     public ArrayList<Episode> getEpisodes() {
-        return episodes;
+        return this.episodes;
     }
 }
