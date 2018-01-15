@@ -44,9 +44,9 @@ public class SerieRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int id = rs.getInt("id");
-                String title = rs.getString("name");
-                String recomendation = rs.getString("recommendation");
+                int id = rs.getInt("ID");
+                String title = rs.getString("Name");
+                String recomendation = rs.getString("Recommendation");
                 String genre = rs.getString("Genre");
                 String language = rs.getString("Language");
 

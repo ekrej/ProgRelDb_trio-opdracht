@@ -34,8 +34,8 @@ public class EpisodeRepo {
 
             // Stel een SQL query samen.
             String SQL = "SELECT *\n" +
-                    "FROM Episode, program\n" +
-                    "WHERE Episode.ID = program.E_ID";
+                    "FROM Episode, Program\n" +
+                    "WHERE Episode.ID = Program.E_ID";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -45,22 +45,23 @@ public class EpisodeRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int id = rs.getInt("id");
+                int id = rs.getInt("ID");
                 String title = rs.getString("Name");
-                String duration = rs.getString("Runtime");
-                String Season = rs.getString("Season");
-                String language = rs.getString("language");
-                int age = rs.getInt("age");
+                String runtime = rs.getString("Runtime");
+                int episodeNo = rs.getInt("Episode_No");
+                String season = rs.getString("Season");
+                int seriesID = rs.getInt("Series_ID");
+                int age = rs.getInt("Age");
 
-                Episode episode = new Episode(id, title, language, duration, Season, age);
+                Episode episode = new Episode(id, title, runtime, episodeNo, season, seriesID, age);
                 episodes.addEpisode(episode);
 
                 // Print de kolomwaarden.
-                System.out.println(id + " " + title + " " + duration + " " + Season + " " + language + " " + age);
+                System.out.println(id + " " + title + " " + runtime + " " + episodeNo + " " + season + " " + seriesID + " " + age);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", id, title, duration);
+                System.out.format("| %7d | %-32s | %-24s | \n", id, title, runtime);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 

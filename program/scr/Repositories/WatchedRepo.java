@@ -32,7 +32,7 @@ public class WatchedRepo {
             con = DriverManager.getConnection(connectionUrl,"admin","admin");
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM watched";
+            String SQL = "SELECT * FROM Watched";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -42,19 +42,20 @@ public class WatchedRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int profile_ID = rs.getInt("profile_ID");
-                String program_name = rs.getString("program_name");
-                int Percent_watched = rs.getInt("Percent_watched");
+                int id = rs.getInt("ID");
+                int profileID = rs.getInt("Profile_ID");
+                String programName = rs.getString("Program_Name");
+                int percentWatched = rs.getInt("Percent_Watched");
 
                 //Account account = new Account(id, title, language, duration, genre, age);
                 //accounts.addAccount(account);
 
                 // Print de kolomwaarden.
-                System.out.println(profile_ID + " " + program_name + " " + Percent_watched);
+                System.out.println(id + " " + profileID + " " + programName + " " + percentWatched);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", profile_ID, program_name, Percent_watched);
+                System.out.format("| %7d | %-32s | %-24s | \n", id, profileID, programName, percentWatched);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 

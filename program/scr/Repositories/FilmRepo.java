@@ -38,8 +38,8 @@ public class FilmRepo {
 
             // Stel een SQL query samen.
             String SQL = "SelECT *\n" +
-                    "FROM Film, program\n" +
-                    "where Film.ID = program.F_ID";
+                    "FROM Film, Program\n" +
+                    "where Film.ID = Program.F_ID";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -49,12 +49,12 @@ public class FilmRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int id = rs.getInt("id");
+                int id = rs.getInt("ID");
                 String title = rs.getString("Name");
                 String duration = rs.getString("Runtime");
                 String genre = rs.getString("Genre");
-                String language = rs.getString("language");
-                int age = rs.getInt("age");
+                String language = rs.getString("Language");
+                int age = rs.getInt("Age");
 
                 Film film = new Film(id, title, language, duration, genre, age);
                 films.addFilm(film);

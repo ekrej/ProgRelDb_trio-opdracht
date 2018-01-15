@@ -48,21 +48,21 @@ public class ProfileRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int id = rs.getInt("id");
-                String title = rs.getString("Name");
-                String subno = rs.getString("Subnumber");
-                String Birthdate = rs.getString("Birthdate");
+                int id = rs.getInt("ID");
+                String name = rs.getString("Name");
+                String subNo = rs.getString("Subnumber");
+                String birthdate = rs.getString("Birthdate");
 
 
-                Profile profile = new Profile(id, title, subno, Birthdate);
+                Profile profile = new Profile(id, name, subNo, birthdate);
                 profiles.addProfile(profile);
 
                 // Print de kolomwaarden.
-                System.out.println(id + " " + title + " " + stmt + " " + Birthdate );
+                System.out.println(id + " " + name + " " + subNo + " " + birthdate );
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", id, title, Birthdate);
+                System.out.format("| %7d | %-32s | %-24s | \n", id, name, birthdate);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 

@@ -1,19 +1,19 @@
 package Domains;
-//Goede Column names nog invoeren!
+
 public class Account {
-    private int SubNo;
+    private int subNo;
     private String name;
-    private String Email;
-    private String Adress;
-    private String Residence;
+    private String email;
+    private String adress;
+    private String residence;
 
 
-    public Account(int SubNo, String Name, String Email, String Adress, String Residence) {
-        this.SubNo = SubNo;
-        this.name = Name;
-        this.Email = Email;
-        this.Adress = Adress;
-        this.Residence = Residence;
+    public Account(int subNo, String name, String email, String adress, String residence) {
+        this.subNo = subNo;
+        this.name = name;
+        this.email = email;
+        this.adress = adress;
+        this.residence = residence;
 
     }
 }

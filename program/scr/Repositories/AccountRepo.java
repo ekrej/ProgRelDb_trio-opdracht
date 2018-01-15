@@ -43,21 +43,21 @@ public class AccountRepo {
             // Als de resultset waarden bevat dan lopen we hier door deze waarden en printen ze.
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
-                int SubNo = rs.getInt("Subnumber");
-                String Name = rs.getString("Name");
-                String Email = rs.getString("Email");
-                String Adress = rs.getString("Adress");
-                String Residence = rs.getString("Residence");
+                int subNo = rs.getInt("Subnumber");
+                String name = rs.getString("Name");
+                String email = rs.getString("Email");
+                String adress = rs.getString("Adress");
+                String residence = rs.getString("Residence");
 
-                Account account = new Account(SubNo, Name, Email, Adress, Residence);
+                Account account = new Account(subNo, name, email, adress, residence);
                 accounts.addAccount(account);
 
                 // Print de kolomwaarden.
-                System.out.println(SubNo + " " + Name + " " + Email + " " + Adress + " " + Residence);
+                System.out.println(subNo + " " + name + " " + email + " " + adress + " " + residence);
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", SubNo, Name, Email);
+                System.out.format("| %7d | %-32s | %-24s | \n", subNo, name, email);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 

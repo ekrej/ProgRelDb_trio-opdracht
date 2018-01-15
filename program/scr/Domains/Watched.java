@@ -1,19 +1,15 @@
 package Domains;
-//Goede Column names nog invoeren!
+
 public class Watched {
     private int id;
-    private String name;
-    private String language;
-    private String duration;
-    private String genre;
-    private int age;
+    private int profileID;
+    private String programName;
+    private int percentWatched;
 
-    public Watched(int id, String name, String language, String duration, String genre, int age) {
+    public Watched(int id, int profileID, String programName, int percentWatched) {
         this.id = id;
-        this.name = name;
-        this.language = language;
-        this.duration = duration;
-        this.genre = genre;
-        this.age = age;
+        this.profileID = profileID;
+        this.programName = programName;
+        this.percentWatched = percentWatched;
     }
 }
