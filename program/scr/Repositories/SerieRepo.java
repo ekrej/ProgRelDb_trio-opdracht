@@ -31,10 +31,10 @@ public class SerieRepo {
             // 'Importeer' de driver die je gedownload hebt.
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             // Maak de verbinding met de database.
-            con = DriverManager.getConnection(connectionUrl,"admin","admin");
+            con = DriverManager.getConnection(connectionUrl);
 
             // Stel een SQL query samen.
-            String SQL = "SELECT * FROM Serie";
+            String SQL = "SELECT * FROM Series";
             stmt = con.createStatement();
             // Voer de query uit op de database.
             rs = stmt.executeQuery(SQL);
@@ -45,21 +45,21 @@ public class SerieRepo {
             while (rs.next()) {
                 // Vraag per row de kolommen in die row op.
                 int id = rs.getInt("id");
-                String title = rs.getString("Titel");
-                String duration = rs.getString("Tijdsduur");
+                String title = rs.getString("name");
+                String recomendation = rs.getString("recommendation");
                 String genre = rs.getString("Genre");
-                String language = rs.getString("Taal");
-                int age = rs.getInt("Leeftijd");
+                String language = rs.getString("Language");
 
-                Serie serie = new Serie(id, title, language, duration, genre, age);
+
+                Serie serie = new Serie(id, title, language, recomendation, genre);
                 series.addSerie(serie);
 
                 // Print de kolomwaarden.
-                System.out.println(id + " " + title + " " + duration + " " + genre + " " + language + " " + age);
+                System.out.println(id + " " + title + " " + recomendation + " " + genre + " " + language );
 
                 // Met 'format' kun je de string die je print het juiste formaat geven, als je dat wilt.
                 // %d = decimal, %s = string, %-32s = string, links uitgelijnd, 32 characters breed.
-                System.out.format("| %7d | %-32s | %-24s | \n", id, title, duration);
+                System.out.format("| %7d | %-32s | %-24s | \n", id, title);
             }
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 
