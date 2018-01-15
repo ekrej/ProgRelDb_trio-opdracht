@@ -1,6 +1,6 @@
 package Constructors;
 
-import Domains.Serie;
+import Controllers.Serie;
 
 import java.util.ArrayList;
 

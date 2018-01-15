@@ -2,10 +2,8 @@ package Repositories;
 
 import Interface.Homepage;
 
-import Domains.Episode;
-
 import Constructors.Profiles;
-import Domains.Profile;
+import Controllers.Profile;
 
 
 import javax.swing.*;

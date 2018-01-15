@@ -53,7 +53,7 @@ public class Main {
 //                String language = rs.getString("language");
 //                int age = rs.getInt("age");
 //
-//                Domains.Film film = new Domains.Film(id, title, language, duration, genre, age);
+//                Controllers.Film film = new Controllers.Film(id, title, language, duration, genre, age);
 //                films.addFilm(film);
 //
 //                // Print de kolomwaarden.

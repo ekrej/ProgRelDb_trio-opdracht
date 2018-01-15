@@ -2,7 +2,7 @@ package Repositories;
 
 import Interface.Homepage;
 import Constructors.Series;
-import Domains.Serie;
+import Controllers.Serie;
 
 import javax.swing.*;
 import java.sql.Connection;
