@@ -1,6 +1,7 @@
 package Overviews;
 
 import Constructors.Films;
+import Controllers.Film;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,11 +9,12 @@ import java.util.ArrayList;
 
 public class Watched {
     private Container container;
-    private ArrayList<Films> films;
+    private ArrayList<Film> films;
 
-    public Watched(Container container, ArrayList films) {
+    public Watched(Container container) {
         this.container = container;
-        this.films = films;
+        Films episode = new Films();
+        this.films = episode.getFilms();
     }
 
     public void watchedLabels() {

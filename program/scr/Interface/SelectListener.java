@@ -37,56 +37,66 @@ public class SelectListener implements ActionListener{
             case "Fam. van Raalte":
                 switch(ID){
                     case 2:
-                        AV.;
+                        AV.labelsSherlock();
+                        AV.labelsBreakingBad();
+                        AV.labelsFargo();
                         break;
                     case 3:
-                        HM.;
+                        HM.filmLabels();
                         break;
                 }
                 break;
             case "F. de Kat":
                 switch(ID){
                     case 2:
-                        AV.;
+                        AV.labelsSherlock();
+                        AV.labelsBreakingBad();
+                        AV.labelsFargo();
                         break;
                     case 3:
-                        HM.;
+                        HM.filmLabels();
                         break;
                 }
                 break;
             case "J. van Betlehem":
                 switch(ID){
                     case 2:
-                        AV.;
+                        AV.labelsSherlock();
+                        AV.labelsBreakingBad();
+                        AV.labelsFargo();
                         break;
                     case 3:
-                        HM.;
+                        HM.filmLabels();
                         break;
                 }
                 break;
             case "A Clockwork Orange":
-                W.;
+                W.watchedLabels();
                 break;
             case "Andy Warhol’s Dracula":
-                W.;
+                W.watchedLabels();
                 break;
             case "De helaasheid der dingen":
-                W.;
+                W.watchedLabels();
                 break;
             case "Der Untergang":
-                W.;
+                W.watchedLabels();
                 break;
             case "Ober":
-                W.;
+                W.watchedLabels();
                 break;
             case "Pruimebloesem":
-                W.;
+                W.watchedLabels();
                 break;
             case "Pulp Fiction":
-                W.;
+                W.watchedLabels();
                 break;
 
         }
+
+
+        container.revalidate();
+        container.repaint();
 
 
 

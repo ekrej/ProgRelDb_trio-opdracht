@@ -1,6 +1,7 @@
 package Overviews;
 
 import Constructors.Films;
+import Controllers.Film;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 
 public class Longest {
     private Container container;
-    private ArrayList<Films> films;
+    private ArrayList<Film> films;
 
     public Longest(Container container) {
         this.container = container;

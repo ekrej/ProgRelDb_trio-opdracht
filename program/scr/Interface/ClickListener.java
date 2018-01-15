@@ -33,23 +33,34 @@ public class ClickListener implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         container.removeAll();
+            Combobox cb = new Combobox();
             if(this.ID == 1){
-                Combobox cb = new Combobox();
+
                 cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 2){
-                Combobox cb = new Combobox();
+
                 cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 3){
-                Combobox cb = new Combobox();
+
                 cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 4){
                 Longest L =new Longest(container);
-                L.;
+                L.longestLabels();
+                Footer footer = new Footer();
+                footer.addFooter(container);
+
+                container.revalidate();
+                container.repaint();
             }else if(this.ID == 5){
                 OnlyOne OO =new OnlyOne(container);
-                OO.;
+                OO.onlyOneLabels();
+                Footer footer = new Footer();
+                footer.addFooter(container);
+
+                container.revalidate();
+                container.repaint();
             }else if(this.ID == 6){
-                Combobox cb = new Combobox();
+
                 cb.AddBox(this.container, this.strings, this.ID);
             }
 

@@ -8,7 +8,7 @@ public class OnlyOne {
     private Container container;
     private String email;
 
-    public OnlyOne(Container container, String email) {
+    public OnlyOne(Container container) {
         this.container = container;
         this.email = email;
     }
