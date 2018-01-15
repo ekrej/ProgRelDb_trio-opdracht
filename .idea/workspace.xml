@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050aac0c-b61f-4afa-9ed0-074e9dd8df23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Interface/AvgSerie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Constructors/Films.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Films.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
-      <change beforePath="$PROJECT_DIR$/program/scr/Constructors/Series.java" afterPath="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/program/scr/Interface/ClickListener.java" afterPath="$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
       <change beforePath="$PROJECT_DIR$/program/scr/Interface/SelectListener.java" afterPath="$PROJECT_DIR$/program/scr/Interface/SelectListener.java" />
       <change beforePath="$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java" afterPath="$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java" />
       <change beforePath="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" afterPath="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
@@ -28,21 +23,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Homepage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
+      <file leaf-file-name="ClickListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+            <state relative-caret-position="578">
+              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvgAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvgSerie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HowMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/HowMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Longest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Longest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlyOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/OnlyOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Watched.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Watched.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerieRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/scr/Interface/SelectListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="1343">
+              <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,21 +145,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Profile.java" />
         <option value="$PROJECT_DIR$/program/scr/Interface/Combobox.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/HowMany.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/Longest.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/OnlyOne.java" />
-        <option value="$PROJECT_DIR$/program/scr/Overviews/Watched.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Episodes.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Accounts.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Profiles.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Series.java" />
         <option value="$PROJECT_DIR$/program/scr/Constructors/Films.java" />
         <option value="$PROJECT_DIR$/program/scr/Interface/SelectListener.java" />
+        <option value="$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/HowMany.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/Longest.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/OnlyOne.java" />
+        <option value="$PROJECT_DIR$/program/scr/Overviews/Watched.java" />
       </list>
     </option>
   </component>
@@ -335,18 +410,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java</url>
+          <line>7</line>
+          <properties field="container" class="Overviews.AvgSerie" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Controllers/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -363,49 +439,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Interface/Combobox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,11 +491,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Constructors/Accounts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
@@ -466,65 +521,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Watched.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Interface/SelectListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="1343">
+          <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/OnlyOne.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-34">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Longest.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/AvgSerie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Overviews/HowMany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Interface/SelectListener.java">
+    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Longest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/OnlyOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Overviews/Watched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
