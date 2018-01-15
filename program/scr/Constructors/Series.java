@@ -1,10 +1,7 @@
 package Constructors;
 
 import Controllers.Serie;
-<<<<<<< HEAD
-=======
-import Domains.Serie;
->>>>>>> origin/master
+
 
 import java.util.ArrayList;
 

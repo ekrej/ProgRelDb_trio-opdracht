@@ -1,5 +1,6 @@
 package Overviews;
 
+
 import Constructors.Episodes;
 
 import javax.swing.*;
@@ -16,12 +17,12 @@ public class AvgSerie {
         this.episodes = episodes;
     }
 
-    public void labelsSherlock(Container container, ArrayList episodes) {
+    public void labelsSherlock() {
+
         //setting layout
         GridLayout layout = new GridLayout(20, 1);
         container.setLayout(layout);
 
-        //initializing labels
         for(Object ep : episodes){
             String s = ep.toString();
 
@@ -29,15 +30,15 @@ public class AvgSerie {
                 JLabel episodes1 = new JLabel(s);
                 container.add(episodes1);
             }
+
         }
     }
+    public void labelsBreakingBad() {
 
-    public void labelsBreakingBad(Container container, ArrayList episodes) {
         //setting layout
         GridLayout layout = new GridLayout(20, 1);
         container.setLayout(layout);
 
-        //initializing labels
         for(Object ep : episodes){
             String s = ep.toString();
 
@@ -45,15 +46,16 @@ public class AvgSerie {
                 JLabel episodes2 = new JLabel(s);
                 container.add(episodes2);
             }
+
         }
     }
 
-    public void labelsFargo(Container container, ArrayList episodes) {
+    public void labelsFargo() {
+
         //setting layout
         GridLayout layout = new GridLayout(20, 1);
         container.setLayout(layout);
 
-        //initializing labels
         for(Object ep : episodes){
             String s = ep.toString();
 
@@ -61,7 +63,9 @@ public class AvgSerie {
                 JLabel episodes3 = new JLabel(s);
                 container.add(episodes3);
             }
+
         }
     }
+
 }
 

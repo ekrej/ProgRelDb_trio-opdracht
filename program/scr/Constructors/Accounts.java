@@ -1,7 +1,6 @@
 package Constructors;
 
 import Controllers.Account;
-import Domains.Account;
 
 import java.util.ArrayList;
 

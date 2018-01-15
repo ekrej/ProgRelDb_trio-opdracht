@@ -1,10 +1,7 @@
 package Constructors;
 
 import Controllers.Profile;
-<<<<<<< HEAD
-=======
-import Domains.Profile;
->>>>>>> origin/master
+
 
 import java.util.ArrayList;
 

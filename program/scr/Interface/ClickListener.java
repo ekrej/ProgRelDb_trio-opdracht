@@ -1,5 +1,8 @@
 package Interface;
 
+import Overviews.Longest;
+import Overviews.OnlyOne;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -40,9 +43,11 @@ public class ClickListener implements ActionListener{
                 Combobox cb = new Combobox();
                 cb.AddBox(this.container, this.strings, this.ID);
             }else if(this.ID == 4){
-
+                Longest L =new Longest(container);
+                L.;
             }else if(this.ID == 5){
-
+                OnlyOne OO =new OnlyOne(container);
+                OO.;
             }else if(this.ID == 6){
                 Combobox cb = new Combobox();
                 cb.AddBox(this.container, this.strings, this.ID);
