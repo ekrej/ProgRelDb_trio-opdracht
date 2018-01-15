@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a589a5d-9be1-4d38-bb1a-a92e04ca9348" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Account.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Episode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Film.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Profile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Serie.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Domains/Watched.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Accounts.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Accounts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Episodes.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Episodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Films.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Films.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Profiles.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Profiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Series.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Constructors/Series.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/AccountRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/AccountRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/EpisodeRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/EpisodeRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/FilmRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/FilmRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/ProfileRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/ProfileRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/SerieRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/SerieRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/WatchedRepo.class" afterPath="$PROJECT_DIR$/out/production/Netflix_Statistix/Repositories/WatchedRepo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Interface/Homepage.java" afterPath="$PROJECT_DIR$/program/scr/Interface/Homepage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/program/scr/Repositories/WatchedRepo.java" afterPath="$PROJECT_DIR$/program/scr/Repositories/WatchedRepo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/program/out/" />
@@ -34,47 +19,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Homepage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="84" column="35" lean-forward="false" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+            <state relative-caret-position="363">
+              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
-                <marker date="1516033126668" expanded="true" signature="1034:1055" ph="SELECT * FRO... Account" />
-                <marker date="1516033126668" expanded="true" signature="3272:3373" ph="SELECT Accou... Profile" />
-                <marker date="1516033126668" expanded="true" signature="3272:3410" ph="SELECT Accou... Profile" />
-                <marker date="1516033126668" expanded="true" signature="3272:3448" ph="SELECT * FRO... Account" />
+                <marker date="1516035995430" expanded="true" signature="1034:1055" ph="SELECT * FRO... Account" />
+                <marker date="1516035995430" expanded="true" signature="3258:3276" ph="SELECT Email... Series" />
+                <marker date="1516035995430" expanded="true" signature="3258:3283" ph="SELECT Email... Account" />
+                <marker date="1516035995430" expanded="true" signature="4183:4284" ph="SELECT Accou... Profile" />
+                <marker date="1516035995430" expanded="true" signature="4183:4321" ph="SELECT Accou... Profile" />
+                <marker date="1516035995430" expanded="true" signature="4183:4359" ph="SELECT * FRO... Account" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClickListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
+      <file leaf-file-name="FilmRepo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="383">
+              <caret line="125" column="52" lean-forward="true" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+              <folding>
+                <marker date="1516036513545" expanded="true" signature="1027:1135" ph="SelECT *\nFR... Film" />
+                <marker date="1516036513545" expanded="true" signature="3387:3394" ph="SELECT AVG(P... Watched" />
+                <marker date="1516036513545" expanded="true" signature="3387:3484" ph="SELECT Top 1... Film" />
+                <marker date="1516036513545" expanded="true" signature="3387:3506" ph="SELECT Top 1... Film" />
+                <marker date="1516036513545" expanded="true" signature="4405:4433" ph="SELECT Count... Watched" />
+                <marker date="1516036513545" expanded="true" signature="4405:4492" ph="SELECT Count... Watched" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combobox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/scr/Interface/Combobox.java">
+      <file leaf-file-name="WatchedRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/WatchedRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+              <folding>
+                <marker date="1516036164524" expanded="true" signature="994:1015" ph="SELECT * FRO... Watched" />
+                <marker date="1516036164524" expanded="true" signature="3211:3343" ph="SELECT Progr... Watched" />
+                <marker date="1516036164524" expanded="true" signature="3211:3460" ph="SELECT Progr... Watched" />
+                <marker date="1516036164524" expanded="true" signature="3211:3490" ph="SELECT Name Series" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpisodeRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="105" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="105" selection-end-column="9" />
+              <folding>
+                <marker date="1516035902612" expanded="true" signature="1035:1149" ph="SELECT *\nFR... Episode" />
+                <marker date="1516035902612" expanded="true" signature="3491:3552" ph="SELECT AVG(P... Watched" />
+                <marker date="1516035902612" expanded="true" signature="3491:3553" ph="SELECT AVG(P... Watched" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerieRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="103" column="9" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+              <folding>
+                <marker date="1516035902700" expanded="true" signature="1028:1048" ph="SELECT * FRO... Series" />
+                <marker date="1516035902700" expanded="true" signature="3236:3259" ph="SELECT Name Series" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +111,11 @@
         <option value="$PROJECT_DIR$/program/scr/Interface/ClickListener.java" />
         <option value="$PROJECT_DIR$/program/scr/Interface/Combobox.java" />
         <option value="$PROJECT_DIR$/program/scr/Interface/Homepage.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java" />
         <option value="$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/WatchedRepo.java" />
+        <option value="$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java" />
       </list>
     </option>
   </component>
@@ -271,12 +291,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516030814469</updated>
-      <workItem from="1516032650988" duration="476000" />
+      <workItem from="1516032650988" duration="3178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476000" />
+    <option name="totallyTimeSpent" value="3178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -356,19 +376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="84" column="35" lean-forward="false" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
-          <folding>
-            <marker date="1516033126668" expanded="true" signature="1034:1055" ph="SELECT * FRO... Account" />
-            <marker date="1516033126668" expanded="true" signature="3272:3373" ph="SELECT Accou... Profile" />
-            <marker date="1516033126668" expanded="true" signature="3272:3410" ph="SELECT Accou... Profile" />
-            <marker date="1516033126668" expanded="true" signature="3272:3448" ph="SELECT * FRO... Account" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Interface/ClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -379,9 +386,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program/scr/Interface/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/AccountRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1516035995430" expanded="true" signature="1034:1055" ph="SELECT * FRO... Account" />
+            <marker date="1516035995430" expanded="true" signature="3258:3276" ph="SELECT Email... Series" />
+            <marker date="1516035995430" expanded="true" signature="3258:3283" ph="SELECT Email... Account" />
+            <marker date="1516035995430" expanded="true" signature="4183:4284" ph="SELECT Accou... Profile" />
+            <marker date="1516035995430" expanded="true" signature="4183:4321" ph="SELECT Accou... Profile" />
+            <marker date="1516035995430" expanded="true" signature="4183:4359" ph="SELECT * FRO... Account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/SerieRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
+          <folding>
+            <marker date="1516035902700" expanded="true" signature="1028:1048" ph="SELECT * FRO... Series" />
+            <marker date="1516035902700" expanded="true" signature="3236:3259" ph="SELECT Name Series" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/WatchedRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <marker date="1516036164524" expanded="true" signature="994:1015" ph="SELECT * FRO... Watched" />
+            <marker date="1516036164524" expanded="true" signature="3211:3343" ph="SELECT Progr... Watched" />
+            <marker date="1516036164524" expanded="true" signature="3211:3460" ph="SELECT Progr... Watched" />
+            <marker date="1516036164524" expanded="true" signature="3211:3490" ph="SELECT Name Series" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/EpisodeRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <marker date="1516035902612" expanded="true" signature="1035:1149" ph="SELECT *\nFR... Episode" />
+            <marker date="1516035902612" expanded="true" signature="3491:3552" ph="SELECT AVG(P... Watched" />
+            <marker date="1516035902612" expanded="true" signature="3491:3553" ph="SELECT AVG(P... Watched" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/scr/Repositories/FilmRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="125" column="52" lean-forward="true" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+          <folding>
+            <marker date="1516036513545" expanded="true" signature="1027:1135" ph="SelECT *\nFR... Film" />
+            <marker date="1516036513545" expanded="true" signature="3387:3394" ph="SELECT AVG(P... Watched" />
+            <marker date="1516036513545" expanded="true" signature="3387:3484" ph="SELECT Top 1... Film" />
+            <marker date="1516036513545" expanded="true" signature="3387:3506" ph="SELECT Top 1... Film" />
+            <marker date="1516036513545" expanded="true" signature="4405:4433" ph="SELECT Count... Watched" />
+            <marker date="1516036513545" expanded="true" signature="4405:4492" ph="SELECT Count... Watched" />
+          </folding>
         </state>
       </provider>
     </entry>

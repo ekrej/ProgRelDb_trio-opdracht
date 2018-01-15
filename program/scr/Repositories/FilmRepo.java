@@ -15,15 +15,17 @@ import java.sql.Statement;
 
 public class FilmRepo {
 
-    public FilmRepo() {
-        // Create a variable for the connection string.
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-                "databaseName=NetflixStatistix;user=admin;password=admin";
+    // Create a variable for the connection string.
+    String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+            "databaseName=NetflixStatistix;user=admin;password=admin";
 
-        // Declare the JDBC objects.
-        Connection con = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+    // Declare the JDBC objects.
+    Connection con = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+    public FilmRepo() {
+
 
         //start de ui
         Homepage ui = new Homepage();
@@ -69,6 +71,56 @@ public class FilmRepo {
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 
 
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void filmWithLongestDurationUnderSixteen() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT Top 1 Program.name FROM Film JOIN Program ON Film.ID = Program.F_ID WHERE Program.Age < 16 ORDER BY Runtime DESC" ;
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void viewersWatchedWholeFilm() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT Count(*) FROM Watched WHERE Program_Name = 'userInput' AND Percent_Watched = 100" ;
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
         }
 
         // Handle any errors that may have occurred.

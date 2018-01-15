@@ -12,15 +12,17 @@ import java.sql.Statement;
 
 public class SerieRepo {
 
-    public SerieRepo() {
-        // Create a variable for the connection string.
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-                "databaseName=NetflixStatistix;user=admin;password=admin";
+    // Create a variable for the connection string.
+    String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+            "databaseName=NetflixStatistix;user=admin;password=admin";
 
-        // Declare the JDBC objects.
-        Connection con = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+    // Declare the JDBC objects.
+    Connection con = null;
+    Statement stmt = null;
+    ResultSet rs = null;
+
+
+    public SerieRepo() {
 
         //start de ui
         Homepage ui = new Homepage();
@@ -64,6 +66,31 @@ public class SerieRepo {
             System.out.println(String.format("| %7s | %-32s | %-24s |\n", " ", " ", " ").replace(" ", "-"));
 
 
+        }
+
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            if (rs != null) try { rs.close(); } catch(Exception e) {}
+            if (stmt != null) try { stmt.close(); } catch(Exception e) {}
+            if (con != null) try { con.close(); } catch(Exception e) {}
+        }
+    }
+
+    public void allSeries() {
+        try {
+            // 'Importeer' de driver die je gedownload hebt.
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            // Maak de verbinding met de database.
+            con = DriverManager.getConnection(connectionUrl);
+
+            // Stel een SQL query samen.
+            String SQL = "SELECT Name FROM Series";
+            stmt = con.createStatement();
+            // Voer de query uit op de database.
+            rs = stmt.executeQuery(SQL);
         }
 
         // Handle any errors that may have occurred.
