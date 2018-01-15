@@ -30,7 +30,6 @@ public class AvgSerie {
                 JLabel episodes1 = new JLabel(s);
                 container.add(episodes1);
             }
-
         }
     }
     public void labelsBreakingBad() {
