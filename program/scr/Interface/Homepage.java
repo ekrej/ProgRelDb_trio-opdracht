@@ -52,6 +52,9 @@ public class Homepage implements Runnable{
            createButtons(this.Buttons);
 
 
+
+
+
             //splitpane settings
             this.SplitPane.setSize(1024,600);
             this.SplitPane.setDividerSize(0);
